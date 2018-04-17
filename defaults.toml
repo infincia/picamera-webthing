@@ -1,0 +1,18 @@
+name = "picam1"
+port = 8080
+
+[camera]
+framerate = 1.0
+iso = 0
+rotation = 0
+shutter_speed = 0
+sensor_mode = 3
+exposure_mode = "auto"
+resolution = "800x600"
+use_video_port = false
+
+[sensors]
+update_interval = 3
+
+[si7021]
+enabled = false

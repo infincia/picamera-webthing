@@ -1,0 +1,13 @@
+[Unit]
+Description=PiCamera Web Thing
+After=syslog.target network-online.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 /opt/picamera-webthing/picamera-webthing.py
+Restart=always
+RestartSec=5
+KillMode=process
+
+[Install]
+WantedBy=multi-user.target
