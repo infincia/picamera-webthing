@@ -22,7 +22,7 @@ import Adafruit_PureIO.smbus as smbus
 
 print = functools.partial(print, flush = True)
 
-logging.basicConfig(level = logging.DEBUG)
+logging.basicConfig(level = logging.INFO)
 logger = logging.getLogger(__name__)
 
 SCRIPT_DIR = os.path.dirname(os.path.realpath(__file__))
