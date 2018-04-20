@@ -4,7 +4,7 @@ A Web Thing compatible Pi Camera server for Mozilla IoT Gateway
 
 **Note:** using this with the Mozilla IoT gateway requires some minor changes
 that are not included in the public Gateway releases at the moment. For testing,
-check out the `images` branch of my fork of the Gateway [here](https://github.com/infincia/gateway/tree/images). Fair warning, that branch
+check out the `camera-thing` branch of my fork of the Gateway [here](https://github.com/infincia/gateway/tree/camera-thing). Fair warning, that branch
 is being force-pushed frequently at the moment.
 
 ## Screenshots (of the Gateway, `picamera-webthing` itself has no UI)
