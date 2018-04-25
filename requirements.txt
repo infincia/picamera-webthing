@@ -3,3 +3,4 @@ webthing
 Adafruit_PureIO
 anyconfig
 picamera
+toml
